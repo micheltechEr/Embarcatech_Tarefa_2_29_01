@@ -22,14 +22,14 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
 include(pico_sdk_import.cmake)
-project(Embarcatech_Tarefa_29_01 C CXX ASM)
+project(Embarcatech_Tarefa_2_29_01C CXX ASM)
 pico_sdk_init()
-add_executable(Embarcatech_Tarefa_29_01 Embarcatech_Tarefa_29_01.c )
-pico_set_program_name(Embarcatech_Tarefa_29_01 "Interrupt")
-target_link_libraries(Embarcatech_Tarefa_29_01 pico_stdlib)
-pico_add_extra_outputs(Embarcatech_Tarefa_29_01)
+add_executable(Embarcatech_Tarefa_2_29_01 Embarcatech_Tarefa_2_29_01.c )
+pico_set_program_name(EEmbarcatech_Tarefa_2_29_01 "Interrupt")
+target_link_libraries(Embarcatech_Tarefa_2_29_01 pico_stdlib)
+pico_add_extra_outputs(Embarcatech_Tarefa_2_29_01)
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(Embarcatech_Tarefa_29_01 1)
-pico_enable_stdio_usb(Embarcatech_Tarefa_29_01 1)
+pico_enable_stdio_uart(Embarcatech_Tarefa_2_29_01 1)
+pico_enable_stdio_usb(Embarcatech_Tarefa_2_29_01 1)
 
